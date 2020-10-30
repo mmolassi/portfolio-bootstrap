@@ -1,4 +1,39 @@
-body {
+html {
+  scroll-behavior: smooth;
+}
+html body {
   width: 100%;
   height: 100%;
+}
+
+header nav {
+  background-color: whitesmoke;
+}
+
+section article {
+  width: 100%;
+}
+section #home {
+  height: 1800px;
+  background-color: #255A44;
+}
+section #experience {
+  height: 978px;
+  background-color: blue;
+}
+section #education {
+  height: 978px;
+  background-color: red;
+}
+section #skills {
+  height: 978px;
+  background-color: yellow;
+}
+section #portfolio {
+  height: 978px;
+  background-color: green;
+}
+section #contact {
+  height: 978px;
+  background-color: purple;
 }

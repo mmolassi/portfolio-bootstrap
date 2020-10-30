@@ -1,4 +1,50 @@
-body {
-    width: 100%;
-    height: 100%;
+html {
+    scroll-behavior: smooth;
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+header {
+    nav {
+        background-color: whitesmoke;
+    }
+}
+
+section {
+    article {
+        width: 100%;
+    }
+
+    #home {
+        height: 1800px;
+        background-color: #255A44;
+    }
+
+    #experience {
+        height: 978px;
+        background-color: blue;
+    }
+
+    #education {
+        height: 978px;
+        background-color: red;
+    }
+
+    #skills {
+        height: 978px;
+        background-color: yellow;
+    }
+
+    #portfolio {
+        height: 978px;
+        background-color: green;
+    }
+
+    #contact {
+        height: 978px;
+        background-color: purple;
+    }
 }
