@@ -1,5 +1,6 @@
 @import "home";
 @import "experience";
+@import "education";
 
 html {
     scroll-behavior: smooth;
@@ -21,13 +22,6 @@ header {
 section {
     article {
         width: 100%;
-    }
-
-    
-
-    #education {
-        height: 978px;
-        background-color: red;
     }
 
     #skills {
