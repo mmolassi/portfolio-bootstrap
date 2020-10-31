@@ -1,4 +1,5 @@
 @import "home";
+@import "experience";
 
 html {
     scroll-behavior: smooth;
@@ -22,10 +23,7 @@ section {
         width: 100%;
     }
 
-    #experience {
-        height: 978px;
-        background-color: blue;
-    }
+    
 
     #education {
         height: 978px;
