@@ -1,6 +1,6 @@
 #education {
     height: 1200px;
-    background-color: #CCC49A;
+    background-color: #EFE3D3;
 
     .education_img_container {
         background-image: url("/assets/images/education.svg");
@@ -18,7 +18,7 @@
         justify-content: center;
 
         .education_title {
-            margin-top: -16.181vw;
+            margin-top: -13.181vw;
 
 
             text-align: left;
@@ -41,14 +41,14 @@
             grid-row: 1 / span 4;
 
             width: 2px;
-            background-color: white;
+            background-color:#C49E94;
         }
 
 
         .point {
             width: 23px;
             height: 23px;
-            background: white;
+            background:#C49E94;
             border-radius: 1000px;
             margin-left: -11.5px;
         }
@@ -109,6 +109,7 @@
         font-size: x-large;
         font-family: Playfair Display;
         margin-bottom: 20px;
+        background-color: #C49E94;
     }
 
     .place {
@@ -132,7 +133,7 @@
 
 @media screen and (min-width: 768px) {
     #education {
-        height: 1300px;
+        height: 1350px;
         text-align: center;
 
         #education_grid {

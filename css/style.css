@@ -12,7 +12,7 @@ section #home {
       margin-left: -350px; }
   section #home #hi {
     height: 800px;
-    background-color: #255A44; }
+    background-color: #C49E94; }
     section #home #hi .greeting {
       margin-top: 100px;
       text-align: left;
@@ -24,7 +24,7 @@ section #home {
       text-align: left;
       font: normal normal normal 20px/25px Playfair Display;
       letter-spacing: 0px;
-      color: #CCC49A; }
+      color: #EFE3D3; }
     section #home #hi .about_title {
       margin-top: 30px;
       text-align: left;
@@ -96,8 +96,7 @@ section #home {
       max-height: 297px; }
   #experience .experience_title_container {
     display: flex;
-    justify-content: center;
-    font-size: x-large; }
+    justify-content: center; }
     #experience .experience_title_container .experience_title {
       margin-top: -16.181vw;
       text-align: left;
@@ -120,7 +119,7 @@ section #home {
 
 @media screen and (min-width: 927px) {
   #experience {
-    height: 978px;
+    height: 650px;
     background-color: white; }
     #experience .experience_title_container .experience_title {
       margin-top: -120px;
@@ -143,7 +142,7 @@ section #home {
 
 #education {
   height: 1200px;
-  background-color: #CCC49A; }
+  background-color: #EFE3D3; }
   #education .education_img_container {
     background-image: url("/assets/images/education.svg");
     background-repeat: no-repeat;
@@ -157,7 +156,7 @@ section #home {
     justify-content: center;
     font-size: x-large; }
     #education .education_title_container .education_title {
-      margin-top: -16.181vw;
+      margin-top: -13.181vw;
       text-align: left;
       font: normal normal bold 9.061vw Playfair Display;
       letter-spacing: 0px;
@@ -171,11 +170,11 @@ section #home {
       grid-column: 4 / 4;
       grid-row: 1 / span 4;
       width: 2px;
-      background-color: white; }
+      background-color: #C49E94; }
     #education #education_grid .point {
       width: 23px;
       height: 23px;
-      background: white;
+      background: #C49E94;
       border-radius: 1000px;
       margin-left: -11.5px; }
     #education #education_grid #point_1 {
@@ -211,7 +210,8 @@ section #home {
   #education .date {
     font-size: x-large;
     font-family: Playfair Display;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background-color: #C49E94; }
   #education .place {
     font-size: medium;
     font-family: Playfair Display;
@@ -227,7 +227,7 @@ section #home {
 
 @media screen and (min-width: 768px) {
   #education {
-    height: 1300px;
+    height: 1350px;
     text-align: center; }
     #education #education_grid {
       grid-template-columns: 1fr 200px 40px 40px 200px 1fr; }
@@ -254,6 +254,120 @@ section #home {
       #education #education_grid #block_5 {
         grid-column: 2 / 2; } }
 
+#skills {
+  height: 550px;
+  background-color: whitesmoke; }
+  #skills .skills_title {
+    font-family: Playfair Display;
+    color: #C49E94;
+    font-size: x-large;
+    text-align: left; }
+  #skills .skills_img_container {
+    display: flex;
+    justify-content: center; }
+    #skills .skills_img_container .skills_img {
+      background-image: url("/assets/images/skills.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 31.392vw;
+      width: 100%;
+      max-width: 1416px;
+      max-height: 297px; }
+  #skills .skills_title_container {
+    display: flex;
+    justify-content: center; }
+    #skills .skills_title_container .skills_ptitle {
+      margin-top: -13.181vw;
+      text-align: left;
+      font: normal normal bold 9.061vw Playfair Display;
+      letter-spacing: 0px;
+      color: #000000; }
+  #skills .content_skills {
+    font-family: Playfair Display;
+    font-size: medium;
+    text-align: left; }
+  #skills .hard_skill_container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Playfair Display;
+    font-size: medium;
+    text-align: left;
+    width: 100%; }
+    #skills .hard_skill_container .skill_img {
+      background-repeat: no-repeat;
+      background-size: 250px 100%;
+      height: 12px;
+      width: 100%; }
+    #skills .hard_skill_container #illustrator {
+      background-image: url("/assets/images/illustrator.svg"); }
+    #skills .hard_skill_container #photoshop {
+      background-image: url("/assets/images/photoshop.svg"); }
+    #skills .hard_skill_container #xd {
+      background-image: url("/assets/images/xd.svg"); }
+    #skills .hard_skill_container #html_css {
+      background-image: url("/assets/images/html.svg"); }
+
+#portfolio {
+  height: 978px;
+  background-color: whitesmoke; }
+  #portfolio .portfolio_img_container {
+    display: flex;
+    justify-content: center; }
+    #portfolio .portfolio_img_container .portfolio_img {
+      background-image: url("/assets/images/portfolio.svg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 31.392vw;
+      width: 100%;
+      max-width: 1416px;
+      max-height: 297px; }
+  #portfolio .portfolio_title_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    #portfolio .portfolio_title_container .portfolio_title {
+      margin-top: -16.181vw;
+      text-align: left;
+      font: normal normal bold 9.061vw Playfair Display;
+      letter-spacing: 0px;
+      color: #000000; }
+  #portfolio .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    max-height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: opacity 300ms, display 300ms; }
+    #portfolio .projects .project_text {
+      display: none; }
+      #portfolio .projects .project_text button {
+        height: 60px;
+        width: 200px;
+        font-size: 20px;
+        color: white;
+        background-color: darkgray;
+        border-radius: 6px; }
+  #portfolio .projects:hover {
+    opacity: 0.5; }
+    #portfolio .projects:hover .project_text {
+      display: unset; }
+  #portfolio #img1_proyect {
+    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+  #portfolio #img2_proyect {
+    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+  #portfolio #img3_proyect {
+    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+  #portfolio #img4_proyect {
+    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+
 html {
   scroll-behavior: smooth; }
   html body {
@@ -266,14 +380,6 @@ header nav {
 
 section article {
   width: 100%; }
-
-section #skills {
-  height: 978px;
-  background-color: yellow; }
-
-section #portfolio {
-  height: 978px;
-  background-color: green; }
 
 section #contact {
   height: 978px;

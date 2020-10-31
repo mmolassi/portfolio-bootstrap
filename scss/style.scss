@@ -1,6 +1,8 @@
 @import "home";
 @import "experience";
 @import "education";
+@import "skills";
+@import "portfolio";
 
 html {
     scroll-behavior: smooth;
@@ -22,16 +24,6 @@ header {
 section {
     article {
         width: 100%;
-    }
-
-    #skills {
-        height: 978px;
-        background-color: yellow;
-    }
-
-    #portfolio {
-        height: 978px;
-        background-color: green;
     }
 
     #contact {
