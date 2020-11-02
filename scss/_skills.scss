@@ -14,7 +14,7 @@
         justify-content: center;
 
         .skills_img {
-            background-image: url("/assets/images/skills.svg");
+            background-image: url("./../assets/images/skills.svg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             height: 31.392vw;
@@ -67,19 +67,19 @@
         }
 
         #illustrator {
-            background-image: url("/assets/images/illustrator.svg");
+            background-image: url("./../assets/images/illustrator.svg");
         }
 
         #photoshop {
-            background-image: url("/assets/images/photoshop.svg");
+            background-image: url("./../assets/images/photoshop.svg");
         }
 
         #xd {
-            background-image: url("/assets/images/xd.svg");
+            background-image: url("./../assets/images/xd.svg");
         }
 
         #html_css {
-            background-image: url("/assets/images/html.svg");
+            background-image: url("./../assets/images/html.svg");
         }
     }
 }

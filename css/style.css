@@ -44,7 +44,7 @@ section #home {
     flex-direction: column;
     align-items: center; }
     section #home #phrase .quotes {
-      background-image: url("/assets/images/quotes.svg");
+      background-image: url("./../assets/images/quotes.svg");
       background-repeat: no-repeat;
       width: 154px;
       height: 122px;
@@ -87,7 +87,7 @@ section #home {
     display: flex;
     justify-content: center; }
     #experience .experience_img_container .experience_img {
-      background-image: url("/assets/images/experience.svg");
+      background-image: url("./../assets/images/experience.svg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: 31.392vw;
@@ -147,7 +147,7 @@ section #home {
     display: flex;
     justify-content: center; }
     #education .education_img_container .education_img {
-      background-image: url("/assets/images/education.svg");
+      background-image: url("./../assets/images/education.svg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: 31.392vw;
@@ -274,7 +274,7 @@ section #home {
     display: flex;
     justify-content: center; }
     #skills .skills_img_container .skills_img {
-      background-image: url("/assets/images/skills.svg");
+      background-image: url("./../assets/images/skills.svg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: 31.392vw;
@@ -309,13 +309,13 @@ section #home {
       height: 12px;
       width: 100%; }
     #skills .hard_skill_container #illustrator {
-      background-image: url("/assets/images/illustrator.svg"); }
+      background-image: url("./../assets/images/illustrator.svg"); }
     #skills .hard_skill_container #photoshop {
-      background-image: url("/assets/images/photoshop.svg"); }
+      background-image: url("./../assets/images/photoshop.svg"); }
     #skills .hard_skill_container #xd {
-      background-image: url("/assets/images/xd.svg"); }
+      background-image: url("./../assets/images/xd.svg"); }
     #skills .hard_skill_container #html_css {
-      background-image: url("/assets/images/html.svg"); }
+      background-image: url("./../assets/images/html.svg"); }
 
 @media screen and (min-width: 927px) {
   #skills .skills_title_container .skills_ptitle {
@@ -330,7 +330,7 @@ section #home {
     display: flex;
     justify-content: center; }
     #portfolio .portfolio_img_container .portfolio_img {
-      background-image: url("/assets/images/portfolio.svg");
+      background-image: url("./../assets/images/portfolio.svg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: 31.392vw;
@@ -375,14 +375,14 @@ section #home {
     #portfolio .projects:hover .project_text {
       display: unset; }
   #portfolio #img1_proyect {
-    background-image: url("/assets/images/rectangular_mywallyweb.svg"); }
+    background-image: url("./../assets/images/rectangular_mywallyweb.svg"); }
   #portfolio #img2_proyect {
-    background-image: url("/assets/images/mywallyapp.svg"); }
+    background-image: url("./../assets/images/mywallyapp.svg"); }
   #portfolio #img3_proyect {
-    background-image: url("/assets/images/estudioaudion.svg");
+    background-image: url("./../assets/images/estudioaudion.svg");
     background-color: black; }
   #portfolio #img4_proyect {
-    background-image: url("/assets/images/womanfitness.svg");
+    background-image: url("./../assets/images/womanfitness.svg");
     background-color: #FFB6BF; }
 
 @media screen and (min-width: 576px) {
@@ -402,7 +402,7 @@ section #home {
     display: flex;
     justify-content: center; }
     #contact .contact_img_container .contact_img {
-      background-image: url("/assets/images/contact.svg");
+      background-image: url("./../assets/images/contact.svg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       height: 31.392vw;

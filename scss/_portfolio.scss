@@ -8,7 +8,7 @@
         justify-content: center;
 
         .portfolio_img {
-            background-image: url("/assets/images/portfolio.svg");
+            background-image: url("./../assets/images/portfolio.svg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             height: 31.392vw;
@@ -80,20 +80,20 @@
     }
 
     #img1_proyect {
-        background-image: url("/assets/images/rectangular_mywallyweb.svg");
+        background-image: url("./../assets/images/rectangular_mywallyweb.svg");
     }
 
     #img2_proyect {
-        background-image: url("/assets/images/mywallyapp.svg");
+        background-image: url("./../assets/images/mywallyapp.svg");
     }
 
     #img3_proyect {
-        background-image: url("/assets/images/estudioaudion.svg");
+        background-image: url("./../assets/images/estudioaudion.svg");
         background-color: black;
     }
 
     #img4_proyect {
-        background-image: url("/assets/images/womanfitness.svg");
+        background-image: url("./../assets/images/womanfitness.svg");
         background-color: #FFB6BF;
     }
 }
