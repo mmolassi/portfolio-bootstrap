@@ -382,6 +382,11 @@ section #home {
   #portfolio #img4_proyect {
     background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
 
+@media screen and (min-width: 576px) {
+  #portfolio {
+    height: 120vw;
+    max-height: 1100px; } }
+
 @media screen and (min-width: 927px) {
   #portfolio .portfolio_title_container .portfolio_title {
     margin-top: -120px;

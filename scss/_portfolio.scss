@@ -41,7 +41,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         height: 30vw;
         max-height: 300px;
 
@@ -72,6 +72,7 @@
 
     .projects:hover {
         opacity: 0.5;
+
         .project_text {
             display: unset;
         }
@@ -91,6 +92,13 @@
 
     #img4_proyect {
         background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg");
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #portfolio {
+        height: 120vw;
+        max-height: 1100px;
     }
 }
 
