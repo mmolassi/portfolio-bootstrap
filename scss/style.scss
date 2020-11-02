@@ -3,21 +3,24 @@
 @import "education";
 @import "skills";
 @import "portfolio";
+@import "contact";
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 
     body {
         width: 100vw;
         min-height: 100vh;
-
         overflow-x: hidden;
+
     }
 }
 
 header {
     nav {
         background-color: whitesmoke;
+        font-family: Playfair Display;
     }
 }
 
@@ -25,17 +28,4 @@ section {
     article {
         width: 100%;
     }
-
-    #contact {
-        height: 978px;
-        background-color: purple;
-    }
-}
-
-// Following properties are used for fix header margins and overflow
-.fixed-top,
-.fixed-bottom,
-.static-top {
-    margin-right: -8px;
-    margin-left: -8px;
 }

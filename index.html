@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <title>Magali Molassi</title>
 
     <!-- Bootstrap CSS -->
     <link
@@ -15,43 +15,46 @@
       crossorigin="anonymous"
     />
 
-    <title>Magali Molassi</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light fixed-top">
-          <a class="navbar-brand" href="#home">MAGALI MOLASSI</a>
+        <div class="row">
+          <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+            <a class="navbar-brand" href="#home">MAGALI MOLASSI</a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto"></ul>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education">education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto"></ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#education">education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <section>
@@ -84,9 +87,9 @@
           <div class="quotes"></div>
           <div class="phrase__text">
             "Design is not just what it looks like and feels like. Design is how
-            it Works"
+            it works".
           </div>
-          <div class="phrase__author">Steve Jobs</div>
+          <div class="phrase__author">- Steve Jobs</div>
         </div>
       </article>
       <article id="experience">
@@ -268,7 +271,49 @@
           </div>
         </div>
       </article>
-      <article id="contact"></article>
+      <article id="contact">
+        <div class="contact_img_container">
+          <div class="contact_img"></div>
+        </div>
+        <div class="contact_title_container">
+          <div class="contact_title">contact</div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="myname">Magali Molassi</div>
+              <div class="my_contact">
+                Barcelona - España <br />
+                magamolassi@gmail.com
+              </div>
+              <div id="img-container_contact">
+                <a href="https://lonkedin"
+                  ><img src="/assets/images/Linkedin.svg" class="logos"
+                /></a>
+                <a href="https://behance"
+                  ><img src="/assets/images/Behance.svg" class="logos"
+                /></a>
+                <a href="https://gmail"
+                  ><img src="/assets/images/gmail.svg" class="logos"
+                /></a>
+              </div>
+            </div>
+            <div class="col-sm-6 lets_work_container">
+              <div class="lets_work">¡Let´s work together!</div>
+              <form>
+                <label class="put_email" for="e-mail"
+                  >Enter your e-mail address and <br />
+                  I will contact you</label
+                ><br />
+                <div class="column-flex">
+                  <input id="e-mail" type="email" />
+                  <button type="submit">send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </article>
     </section>
     <!-- Bootstrap Scripts -->
     <script
