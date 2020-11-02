@@ -356,7 +356,7 @@ section #home {
     max-height: 300px;
     border-radius: 8px;
     margin: 10px;
-    background-color: gray;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     transition: opacity 300ms, display 300ms; }
@@ -367,20 +367,23 @@ section #home {
         width: 200px;
         font-size: 20px;
         color: white;
-        background-color: darkgray;
-        border-radius: 6px; }
+        background-color: #C49E94;
+        border-radius: 60px;
+        border: none; }
   #portfolio .projects:hover {
-    opacity: 0.5; }
+    opacity: 0.8; }
     #portfolio .projects:hover .project_text {
       display: unset; }
   #portfolio #img1_proyect {
-    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+    background-image: url("/assets/images/rectangular_mywallyweb.svg"); }
   #portfolio #img2_proyect {
-    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+    background-image: url("/assets/images/mywallyapp.svg"); }
   #portfolio #img3_proyect {
-    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+    background-image: url("/assets/images/estudioaudion.svg");
+    background-color: black; }
   #portfolio #img4_proyect {
-    background-image: url("/assets/images/Female-Fitness--Women-Workout-3.jpg"); }
+    background-image: url("/assets/images/womanfitness.svg");
+    background-color: #FFB6BF; }
 
 @media screen and (min-width: 576px) {
   #portfolio {
