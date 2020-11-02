@@ -1,5 +1,5 @@
 #contact {
-    height: 900px;
+    height: 700px;
     background-color: #F2E8E6;
 
     .contact_img_container {
@@ -13,7 +13,7 @@
             height: 31.392vw;
             width: 100%;
 
-            max-width: 1416px;
+            max-width: 1082px;
             max-height: 297px;
         }
     }
@@ -25,9 +25,7 @@
         margin-bottom: 30px;
 
         .contact_title {
-            margin-top: -16.181vw;
-
-
+            margin-top: -14.181vw;
             text-align: left;
             font: normal normal bold 9.061vw Playfair Display;
             letter-spacing: 0px;
@@ -38,7 +36,7 @@
     .myname {
         font-family: Playfair Display;
         font-size: x-large;
-        margin-top: 80px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -131,9 +129,9 @@
         }
 
         .lets_work {
-            font-family: Playfair Display;
-            font-size: xx-large;
+            font: normal normal normal xx-large/35px Playfair Display;
             margin-top: 80px;
+            margin-bottom: 5px;
         }
 
         .put_email {
@@ -165,6 +163,17 @@
                 background-color: #C49E94;
                 color: black;
                 font-family: Playfair Display;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 927px) {
+    #contact {
+        .contact_title_container {
+            .contact_title {
+                margin-top: -120px;
+                font: normal normal bold 84px Playfair Display;
             }
         }
     }

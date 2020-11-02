@@ -20,7 +20,7 @@
             height: 31.392vw;
             width: 100%;
 
-            max-width: 1416px;
+            max-width: 776px;
             max-height: 297px;
         }
     }
@@ -80,6 +80,17 @@
 
         #html_css {
             background-image: url("/assets/images/html.svg");
+        }
+    }
+}
+
+@media screen and (min-width: 927px) {
+    #skills {
+        .skills_title_container {
+            .skills_ptitle {
+                margin-top: -120px;
+                font: normal normal bold 84px Playfair Display;
+            }
         }
     }
 }
